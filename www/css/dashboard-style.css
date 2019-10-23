@@ -1,0 +1,68 @@
+
+
+ h1 {
+
+  margin: 0;
+
+}
+/*
+.heading{
+  flex-grow: 1;
+    text-align: center;
+    color: white;
+}
+
+.heading h1{
+  margin-top: 0;
+  margin-top: .5rem;
+}
+
+.userpic{
+  margin-top: 0.4rem;
+  margin-right: 0.5rem;
+}
+ */
+.main-table {
+
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.main-table tr{
+
+  height: 60px;
+}
+
+main{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Tableview{
+  margin-top: 3rem;
+}
+
+.Tableview h3{
+  text-align: left;
+}
+
+.main-table{
+box-shadow: 0px 0px 2px blue;
+border-collapse: separate;
+border-spacing: 0;
+margin-bottom: 1rem;
+border-top: none;
+border-right: none;
+border-left: none;
+
+}
+
+.main-table tr:first-child{
+      box-shadow: 0px 0px 10px;
+}
+
+td{
+  color: black;
+  font-size: 0.8rem;
+  text-align: center;
+}

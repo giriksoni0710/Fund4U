@@ -1,0 +1,233 @@
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.or{
+  margin-top:1rem;
+}
+body {
+margin: 0;
+padding: 0;
+max-height: 100vh;
+}
+
+.grad {
+  background-image: linear-gradient(white,#93eaad);
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 200%;
+}
+
+.background-2{
+  background-color: #ecf0f1;
+}
+
+.logosize{
+  height: auto;
+    max-width: 200px;
+    margin-top: 68%;
+}
+
+.logosize2{
+  height: auto;
+    max-width: 200px;
+    margin-top: 30%;
+}
+.logosize3{
+  height: auto;
+    max-width: 200px;
+    margin-top: 30%;
+}
+#splashscreen{
+
+text-align: center;
+    margin-top: 10%;
+
+}
+
+div.loginsignup {
+
+margin-top: 50%;
+    text-align: -webkit-center;
+}
+
+.main-start-button{
+
+  width: 20rem;
+  height: 3rem;
+    border-radius: .2rem;
+    font-size: 18px;
+
+}
+
+.main-start-button-login{
+
+  width: 16rem;
+  height: 2.7rem;
+    border-radius: .2rem;
+
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-family: Lato;
+
+}
+
+
+.btn1 {
+background-color: #2eaa58;
+color: white;
+
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16) ;
+    font-family: Lato;
+
+}
+
+.btn2{
+
+  background-color: transparent;
+    border: 1.5px solid #3c6380;
+    font-family: Lato;
+
+}
+
+
+
+#login-box {
+  margin: 5% auto;
+  margin-top: 10rem;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+  font-family: Lato;
+}
+
+#login-box2 {
+  margin: 5% auto;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+  font-family: Lato;
+}
+
+.signup-box{
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: -webkit-center;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 16rem;
+  height: 2.7rem;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: Lato;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"], select, input[type="label"], input[type="Number"], input[type="file"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  padding: 4px;
+  width: 250px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background-color: transparent;
+}
+#video{
+  box-sizing: border-box;
+  padding: 4px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background-color: transparent;
+  margin-bottom: 0;
+      padding-right: 67px;
+color: #3c6380;
+
+}
+
+#bnkdetails{
+  box-sizing: border-box;
+  padding: 4px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background-color: transparent;
+  margin-bottom: 0;
+      padding-right: 6rem;
+color: #3c6380;
+
+}
+
+#bnkdetails2 {
+  box-sizing: border-box;
+  padding: 4px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  background-color: transparent;
+  margin-bottom: 0;
+      padding-right: 7rem;
+color: #3c6380;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+
+outline: none;
+  transition: 0.2s ease;
+}
+
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+
+
+::placeholder, #Category-select, #Country-select{
+  color: #3c6380;
+}

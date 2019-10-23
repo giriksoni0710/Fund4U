@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/single.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/code.js" defer></script>
+  </script>
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="page-header">
+    <nav>
+      <ul class="menu-header" style="
+    grid-template-columns: 1fr 2fr 1fr; ">
+        <li class="menu-items">
+          <!-- <img id="burger" class="img-fluid" src="images/burger_menu.png" alt="menu"> -->
+          <a href="projects.html"><i class="fas fa-arrow-left"></i></a>
+        </li>
+        <li class="menu-items" style="font-size:1.2rem; padding-top: 0.5rem; font-weight: 900;"> Project Owner Form  </li>
+        <li class="menu-items">
+          <a href="#">
+            <span class="fa fa-search"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="login-box2" >
+    <div class="signup-box">
+  <form id="form-submit-owner" method="post">
+      <input id="project_name" type="text" name="Projectname" placeholder="Project Name" required />
+      <select id="Category-select" name="Category" placeholder="Category" required>
+   <option value="" disabled selected>Select your Category</option>
+   <option value="Art">Art</option>
+   <option value="Comics">Comics</option>
+   <option value="crafts">Crafts</option>
+   <option value="Design">Design</option>
+   <option value="Fashion">Fashion</option>
+   <option value="Film & Videos">Film & Videos</option>
+   <option value="Games">Games</option>
+   <option value="Technology">Technology</option>
+
+ </select>
+
+ <select id="Country-select" name="Country" placeholder="Country" required>
+<option value="" disabled selected>Select your Country</option>
+<option value="Art">India</option>
+<option value="Comics">Canada</option>
+<option value="crafts">USA</option>
+<option value="Design">China</option>
+<option value="Fashion">philippines</option>
+<option value="Film & Videos">Brazil</option>
+<option value="Games">Vietnam</option>
+
+</select>
+
+                <input id="project_desc" type="text" placeholder="Enter your project description" name="desc2" required/>
+                <input id="fund_required" type="number" name="fund_required" placeholder="Fund Raise Goal(Max 20000CAD)" min="1" max="20000" required/>
+
+                <h4 id="video">Upload Your Project Video: </h4><br /> <br> <input id="video_upload" type="file" name="Video" placeholder="Upload your video"/>
+                <br />
+                <h4 id="video">Upload Your Project Image: </h4><br /> <br> <input id="image_upload" type="file" name="Video" placeholder="Upload your video"/>
+                <br />
+
+                <h4 id="bnkdetails">Bank Account Number: </h4><br /> <br> <input id="p_bank_acnt" type="number" name="Video" placeholder="Account Number"/>
+                <br />
+                <h4 id="bnkdetails2">Bank Branch Name: </h4><br /> <br> <input id="p_bank_branch" type="text" name="Video" placeholder="Branch Name"/>
+                <br />
+
+                          <input id="help" type="text" placeholder="How Can We Help You?" name="help" />
+                          <input id="add_details" type="text" name="username" placeholder="Additional details if any?" required />
+
+<br>
+      <input id="submitbtn2" class="main-start-button-login btn1" type="submit" style="margin-bottom: 2rem;" name="signup_submit" value="Signup" /><br>
+  </form>
+    </div>
+
+  </div>
+
+<script type="text/javascript" src="validation.js"> </script>
+
+
+</body>
+</html>

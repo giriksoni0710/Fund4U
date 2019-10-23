@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/single.css">
+  <!-- <link rel="stylesheet" href="css/backer_form.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/code.js" defer></script>
+  </script>
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <nav>
+      <ul class="menu-header" style="
+    grid-template-columns: 1fr 2fr 1fr; ">
+        <li class="menu-items">
+          <!-- <img id="burger" class="img-fluid" src="images/burger_menu.png" alt="menu"> -->
+          <a href="projects.html"><i class="fas fa-arrow-left"></i></a>
+        </li>
+        <li class="menu-items" style="font-size:1.2rem; padding-top: 0.5rem; font-weight: 900;"> Backer Form  </li>
+        <li class="menu-items">
+          <a href="#">
+            <span class="fa fa-search"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="form_div" >
+    <form id="form-submit" style="text-align: -webkit-center;">
+      <input id="fname" type="text" name="fname" placeholder="First Name" onblur="" />
+      <div id="fname_error"></div>
+      <input id="lname" type="text" name="lname" placeholder="Last Name" onblur="" />
+      <div id="lname_error"></div>
+      <input id="email" type="text" name="email" placeholder="E-mail" onblur="" />
+      <div id="email_error"></div>
+      <textarea name="address" id="address" cols="30" rows="2" placeholder="Residence/Comapany Address"></textarea>
+      <div id="add_error"></div>
+      <!-- <input id="confirmPass" type="password" name="password2" placeholder="Retype password" onkeyup="" /> -->
+      <input id="fund_amount" type="number" name="email" placeholder="fund amount(CAD)" onblur="" min="1" max="20000" />
+
+      <div id="email_error"></div>
+
+      <div id="pass_confirm_error"></div>
+      <input id="submitbtn3" class="main-start-button-login btn1 " type="submit" style="margin-top: 2rem; font-size: 1.2rem;" name="signup_submit" value="Continue to payment"/><br>
+    </form>
+  </div>
+</body>
+</html>
